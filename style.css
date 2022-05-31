@@ -1,0 +1,44 @@
+body{
+    background-color: #1A1A1A;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #2A2A2A;
+    padding: 1em;
+    flex-basis: 100%;
+}
+
+header > * {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+aside{
+    flex-basis: 20%;
+    background-color: #0C0C0C;
+}
+
+.cytat{
+    color: white;
+    text-align: center;
+    margin: 10%;
+}
+
+main {
+    background-color: #202020;
+    flex-basis: 80%;
+}
+
+.wprowadzenie{
+    color: white;
+    text-align: center;
+}

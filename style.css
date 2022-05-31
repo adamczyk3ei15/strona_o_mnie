@@ -10,35 +10,70 @@ body{
     flex-wrap: wrap;
 }
 
+.container > *{
+    margin: 0.5%;
+}
+
 header{
     background-color: #2A2A2A;
-    padding: 1em;
+    padding: 2%;
     flex-basis: 100%;
 }
 
 header > * {
-    text-align: center;
     color: white;
-    margin: 0px;
+    margin: 0.5%;
+    text-align: center;
 }
 
 aside{
     flex-basis: 20%;
-    background-color: #0C0C0C;
+    background-color: #0F0F0F;
 }
 
 .cytat{
     color: white;
-    text-align: center;
     margin: 10%;
 }
 
 main {
     background-color: #202020;
-    flex-basis: 80%;
+    flex-basis: 78%;
 }
 
 .wprowadzenie{
     color: white;
     text-align: center;
+}
+
+.temat > p{
+    color: white;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+
+.fotos > h2{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+.fotos > ul{
+    margin-top: 4%;
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    width: 100%;
+    padding: 1%;
+    background-color: #2A2A2A;
+    text-align: center;
+    color: white;
+}
+
+.boldify{
+    font-weight: bolder;
 }
